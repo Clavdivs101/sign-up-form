@@ -1,0 +1,90 @@
+body{
+    width: 99vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(29, 24, 24);
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+span{
+    font-size: large;
+    font-weight: bold;
+}
+
+input{
+    height: 20px;
+    /* border: #E5E7EB; */
+}
+
+.branding{
+    background-image: url(./tyler-lastovich-AVzByhROPbs-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 25vw;
+    height: 100vh;
+}
+
+
+form{
+    background-color: white;
+    width: 40vw;
+    box-sizing: border-box;
+    /* padding: 20px; */
+    /* border: red solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formrow{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.col1, .col2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formlayout{
+    border: blue solid;
+    padding: 20px;
+    margin: 0px;
+
+}
+
+.inputWrapper{
+    width: inherit;
+    box-sizing: border-box;
+    /* padding: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    height: 15vw;
+    align-items: center;
+    /* border: green solid; */
+}
+
+button{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 150px;
+    height: 50px;
+    background-color: #596D48;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: small    ;
+    font-weight: bold;
+}
+
+.footer{
+    margin-top: 40px;
+    margin-left: 20px;
+}
