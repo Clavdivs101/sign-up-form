@@ -34,24 +34,24 @@
     <div class="col1">
     <div class="formrow">
     <label for="firstname">FIRST NAME</label>
-    <input type="text" name="firstname" id="firstname">
+    <input type="text" name="firstname" id="firstname" placeholder="John">
     </div>
 
     <div class="formrow">
         <label for="email">EMAIL</label>
-        <input type="text" name="email" id="email">
+        <input type="text" name="email" id="email" placeholder="something@example.com" required>
     </div>
 
     <div class="formrow">
         <label for="password">PASSWORD</label>
-        <input type="password" name="password" id="password">
+        <input type="password" name="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" class="psw" required>
     </div>
 </div>
 
     <div class="col2">
     <div class="formrow">
         <label for="lastname">LAST NAME</label>
-        <input type="text" name="lastname" id="lastname">
+        <input type="text" name="lastname" id="lastname" placeholder="Doe">
     </div>
 
     <div class="formrow">
@@ -61,7 +61,7 @@
 
     <div class="formrow">
         <label for="cpassword">CONFIRM PASSWORD</label>
-        <input type="password" name="cpassword" id="cpassword">
+        <input type="password" name="cpassword" id="cpassword" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" class="psw" required>
     </div>
 </div> 
 </div>
